@@ -27,7 +27,12 @@ wget -q -O - https://github.com/dokmic/chuangmi-camera-v5/releases/latest/downlo
 ```
 
 The distribution contains the official firmware recovery of version `3.3.6_2018062014` (`tf_recovery.img`), which will be flashed first.
-To proceed, unplug and plug the power cable back. Wait until the indicator led turns blue.
+To proceed:
+- unplug the cable
+- slide in SD card
+- plug the power cable back
+- wait the time needed to flash the recovery image (camera shows amber light) 
+- when done the indicator led turns blue.
 
 At this moment, the SD card is no longer needed.
 It can be safely removed after powering off the camera.
